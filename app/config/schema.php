@@ -122,7 +122,7 @@ return array(
 				(object) array(
 					'name'     => 'title',
 					'type'     => 'string',
-					'length'   => 25,
+					'length'   => 50,
 					'nullable' => TRUE,
 					'default'  => '',
 				),

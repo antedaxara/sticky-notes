@@ -180,12 +180,12 @@ class CreateController extends BaseController {
 		{
 			// We only allow the user to revise public pastes
 			// Private pastes need to be toggled before being revised
-			if ($paste->private OR $paste->password)
-			{
-				Session::flash('messages.error', Lang::get('create.revise_private'));
+			//if ($paste->private OR $paste->password)
+			//{
+			//	Session::flash('messages.error', Lang::get('create.revise_private'));
 
-				return Redirect::to(URL::previous())->withInput();
-			}
+			//	return Redirect::to(URL::previous())->withInput();
+			//}
 
 			// Now that we are good, we save the paste ID in session so that
 			// when the edited paste is POSTed, we can validate against this
