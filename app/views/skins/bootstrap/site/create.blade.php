@@ -19,7 +19,7 @@
 					{{
 						Form::text('title', $paste->title, array(
 							'class'         => 'form-control',
-							'maxlength'     => 30,
+							'maxlength'     => 50,
 							'placeholder'   => Lang::get('global.paste_title'),
 							'disabled'      => $disabled
 						))
